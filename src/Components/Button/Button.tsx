@@ -6,6 +6,6 @@ export interface Props {
 
 export default class Button extends React.Component<Props, {}> {
     render() {
-        return <button>{this.props.text}</button>
+        return <button>{this.props.text}</button>;
     }
 }
